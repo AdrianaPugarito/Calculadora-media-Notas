@@ -1,5 +1,7 @@
 body{
-  background-color: #189AB4;
+  background: url(https://w7.pngwing.com/pngs/56/112/png-transparent-forest-grove-school-district-background-check-student-school-background-with-pencils-color-pencil-with-blue-sharpener-illustration-pencil-text-color.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 h1{
@@ -20,13 +22,6 @@ h2{
   top: 30px;
   left: 10px;
   width: 20%;
-
-}
-
-.alura-logo{
-  position: absolute;
-  top: 30px;
-  right: 10px;
-  width: 20%;
+  border-radius: 50%;
 
 }

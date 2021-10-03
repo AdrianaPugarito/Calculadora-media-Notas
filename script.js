@@ -10,12 +10,17 @@ Para não ter que usar todas essas variáveis e ter uma calculadora que todo mun
 
 
 var totalBimestres = parseInt(prompt("Quantidade de bimestres?")); //prompt é para exibir uma caixa de texto junto com parseInt cuando a caixa de texto recebe numeros
-var numero = 1;
+//var numero = 1;
 var totalNotas = 0;
 
-while(numero <= totalBimestres){
+/*while(numero <= totalBimestres){
     var notas = parseInt(prompt("Informe notas por bimestre")); //ja o programa entende que vai pegar todas as notas que seram informadas e fara a suma delas
     totalNotas = totalNotas + notas;
+    numero++; //numero = numero + 1
+}*/
+
+for(var numero = 1; numero <= totalBimestres; totalNotas = totalNotas + notas){
+  var notas = parseInt(prompt("Informe notas por bimestre")); //ja o programa entende que vai pegar todas as notas que seram informadas e fara a suma delas.
     numero++; //numero = numero + 1
 }
 
